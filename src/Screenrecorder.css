@@ -1,0 +1,66 @@
+#background{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #background h1{
+    text-align: center;
+  }
+
+  #recorder{
+    display: flex;
+    justify-content:center ;
+    margin-top: 30px;
+  }
+
+  #recorder #recordingstatus{
+    padding: 20px;
+    display: flex;
+    margin-left: 125px;
+  }
+
+  #recorder #startrecording{
+    padding: 20px;
+    margin-right: 100px;
+  }
+
+/* Style for the red button */
+.red-button {
+    /* display: inline-block; */
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left:650px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF5733; /* Red color */
+    border: 2px solid #E6452D; /* Slightly darker red border */
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, border 0.3s, transform 0.3s;
+  }
+  
+  /* Hover effect */
+  .red-button:hover {
+    background-color: #E6452D; /* Darker red on hover */
+    border: 2px solid #FF5733;
+    transform: scale(1.05); /* Slight scale-up on hover */
+  }
+  
+  /* Active effect */
+  .red-button:active {
+    background-color: #C53F2B; /* Even darker red on click */
+    transform: scale(0.95); /* Slight scale-down on click */
+  }
+
+  #lastfouroptions{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 60px;
+    margin-top:15px;
+  }
+  
+
